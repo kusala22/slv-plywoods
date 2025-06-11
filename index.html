@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.L.V Plywoods & Hardware</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo" onclick="navigateTo('index.html')">
+                    <div class="logo-icon">SLV</div>
+                    <div class="logo-text">
+                        <h1>S.L.V Plywoods</h1>
+                        <p>& Hardware</p>
+                    </div>
+                </div>
+                
+                <nav class="navigation">
+                    <a href="index.html" class="nav-link active">Home</a>
+                    <a href="products.html" class="nav-link">Products</a>
+                    <a href="about.html" class="nav-link">About Us</a>
+                </nav>
+                
+                <div class="cart-icon" onclick="navigateTo('cart.html')">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="9" cy="21" r="1"></circle>
+                        <circle cx="20" cy="21" r="1"></circle>
+                        <path d="m1 1 4 4 16 6 2-8H6"></path>
+                    </svg>
+                    <span>Cart</span>
+                    <span class="cart-count" id="cartCount">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="text-orange">S.L.V</span>
+                    <span class="text-brown">Plywoods</span>
+                </h1>
+                <p class="hero-subtitle">& Hardware</p>
+                <p class="hero-description">
+                    Your trusted partner for premium quality plywood and comprehensive hardware
+                    solutions. Building dreams with excellence since our inception.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="navigateTo('products.html')">
+                        Explore Products
+                    </button>
+                    <button class="btn btn-outline" onclick="navigateTo('about.html')">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <div class="container">
+            <h2 class="section-title">Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img class="placeholder-image" src="images/plywood-combo.jpg"/>
+                    </div>
+                    <div class="product-info">
+                        <h3>Premium Plywood</h3>
+                        <p>High-quality marine grade plywood</p>
+                        <div class="product-price">₹2,500/sheet</div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img class="placeholder-image" src="images/hardware.jpg"/>
+                    </div>
+                    <div class="product-info">
+                        <h3>Hardware Tools</h3>
+                        <p>Complete range of construction tools</p>
+                        <div class="product-price">₹150-₹5,000</div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img class="placeholder-image" src="images/gatesheet.jpg"/> 
+                    </div>
+                    <div class="product-info">
+                        <h3>Quality gatesheet</h3>
+                        <p>High-quality</p>
+                        <div class="product-price">₹45/sq.ft</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <h2>Why Choose S.L.V Plywoods?</h2>
+                <div class="features-grid">
+                    <div class="feature">
+                        <h3>Quality Assurance</h3>
+                        <p>All our products undergo rigorous quality checks</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Expert Guidance</h3>
+                        <p>Our team provides professional consultation</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Competitive Pricing</h3>
+                        <p>Best rates in the market without compromising quality</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Timely Delivery</h3>
+                        <p>Fast and reliable delivery services</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
