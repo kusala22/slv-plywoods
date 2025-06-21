@@ -1,31 +1,34 @@
 S.L.V Plywoods Website
 
-Overview
+Overview:
+
 The S.L.V Plywoods website showcases a range of plywood and hardware products, providing customers with the ability to browse, add items to a cart, and place orders successfully. This project aims to streamline product browsing and enhance customer convenience.
 
-Features
+Features:
+
 Display a catalog of plywood and hardware products.
 Add products to the shopping cart for easy tracking.
 Place orders directly through the website.
 
-Installation
+Installation:
 Clone the repository:
 
-bash
+bash:
 git clone https://github.com/kusala22/slv-plywoods.git
+
 Navigate to the project folder:
 
-bash
+bash:
 cd slv-plywoods
 Open index.html in your browser to view the website.
 
-Usage
+Usage:
 Browse products listed on the homepage or the products page.
 Click "Add to Cart" to select items you wish to purchase.
 Go to the cart to review your selections and proceed with placing an order.
 
-Live Demo
+Live Demo:
 Check out the live demo: 
 
-Contributing
+Contributing:
 Feel free to contribute! Submit issues or pull requests to suggest improvements or report bugs.
