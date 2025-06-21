@@ -28,7 +28,7 @@ Click "Add to Cart" to select items you wish to purchase.
 Go to the cart to review your selections and proceed with placing an order.
 
 Live Demo:
-Check out the live demo: 
+Check out the live demo: https://kusala22.github.io/slv-plywoods/
 
 Contributing:
 Feel free to contribute! Submit issues or pull requests to suggest improvements or report bugs.
